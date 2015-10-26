@@ -1,0 +1,37 @@
+%change font size, side, papersize
+\documentclass[12pt,twoside,letterpaper]{report}
+
+%package for font
+\usepackage{arev}
+%\usepackage{comicsans} %example of comic sans
+
+%use geometry package to set margin
+\usepackage[letterpaper,%
+            left=1in,right=1in,top=1in,bottom=1in%
+            %,showframe, 
+            ]{geometry}
+
+%double spacing package
+\usepackage{setspace}
+\doublespacing
+
+%additional math package
+\usepackage{amsmath, amssymb}
+
+%graphic package
+\usepackage{graphicx}
+\usepackage{float}
+
+%================================
+\begin{document}
+\input{title.tex}
+\input{abstract.tex}
+\input{cpright.tex}
+\input{dedication.tex}
+\input{tableofc.tex}
+\input{chapter1.tex}
+\input{chapter2.tex}
+\input{chapter3.tex}
+\input{refer.tex}
+\input{cvtex.tex}
+\end{document}
