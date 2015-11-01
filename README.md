@@ -1,6 +1,6 @@
 # LatexThesisUwm
 
-This is latex template for phd thesis University of Wisconsin Milwaukee 2015. The template is created by Sandi Wibowo. Please refer to graduate school to consult with current format changes.
+This is latex template for phd thesis University of Wisconsin Milwaukee 2015. Please refer to graduate school to consult with current format changes.
 
 To download template: 
 
